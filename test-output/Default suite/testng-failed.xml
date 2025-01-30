@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Learning.Saucedemo">
+      <class name="Practice.Saucedemo">
         <methods>
-          <include name="test1"/>
+          <include name="close"/>
+          <include name="launchurl"/>
+          <include name="username"/>
+          <include name="initilize"/>
         </methods>
-      </class> <!-- Learning.Saucedemo -->
+      </class> <!-- Practice.Saucedemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
